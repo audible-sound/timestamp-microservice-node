@@ -1,0 +1,31 @@
+{
+  "name": "timestamp-microservice-node",
+  "version": "1.0.0",
+  "description": "a simple timestamp microservice",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/audible-sound/timestamp-microservice-node.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "api"
+  ],
+  "author": "Audy Wallace Siegle",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/audible-sound/timestamp-microservice-node/issues"
+  },
+  "homepage": "https://github.com/audible-sound/timestamp-microservice-node#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.19"
+  }
+}
