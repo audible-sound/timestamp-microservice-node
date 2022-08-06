@@ -3,7 +3,10 @@ class ApiController {
     try {
       const dateParam = req.params.date;
       let date = null;
-      if (isNaN(+dateParam) === true) {
+      if (dateParam === undefined) {
+        date = new Date()
+      }
+      else if (isNaN(+dateParam) === true) {
         date = new Date(dateParam);
       } else {
         date = new Date(+dateParam);
